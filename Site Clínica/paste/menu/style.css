@@ -1,0 +1,74 @@
+@font-face {
+     font-family: Keep Calm, GeosansLight, Roboto-Light;
+     src: url(fontes/KeepCalm-Medium.ttf);
+     src: url(fontes/GeosansLight.ttf);
+     src: url(fontes/Roboto-Light.ttf);
+}
+
+
+.l-container {
+  padding: 20px;
+  top: 16px;
+  left: 80px;
+  position: absolute;
+}
+
+.l-container {
+  animation-duration: 1.6s;
+  animation-name: menuroll;
+}
+
+@keyframes menuroll {
+  from {
+  padding: 20px;
+  top: 16px;
+  left: 600px;
+  position: absolute;
+
+  }
+  to {
+  padding: 20px;
+  top: 16px;
+  left: 80px;
+  position: absolute;
+ 
+  }
+}
+
+.c-menu-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  font-size: 14,05px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c-menu-list .c-menu-item {
+  position: relative;
+  display: inline-block;
+}
+.c-menu-list .c-menu-item + .c-menu-item {
+  margin-left: 30px;
+}
+.c-menu-list .c-menu-item::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  border-bottom: solid 2px #cb16b5;
+  transform: scaleX(0);
+  transition: transform 0.2s cubic-bezier(0.7, 0, 0.4, 1);
+}
+.c-menu-list .c-menu-item:hover::after {
+  transform: scaleX(1);
+}

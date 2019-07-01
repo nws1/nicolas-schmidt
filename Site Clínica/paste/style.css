@@ -1,0 +1,231 @@
+@media screen and (min-width: 1360px) {
+
+@font-face {
+     font-family: Keep Calm, GeosansLight, Roboto-Light;
+     src: url(fontes/KeepCalm-Medium.ttf);
+     src: url(fontes/GeosansLight.ttf);
+     src: url(fontes/Roboto-Light.ttf);
+}
+
+#titulo1 {
+	font-family: Keep Calm;
+	font-size: 43.71px;
+	top: 180px;
+	left: 95px;
+	position: absolute;
+	color: #fff;
+}
+
+#titulo1 {
+	animation-name: exx;
+	animation-duration: 1.6s;
+}
+
+@keyframes exx {
+  from {
+  	font-family: Keep Calm;
+	font-size: 43.71px;
+	top: 180px;
+	left: 500px;
+	position: absolute;
+	color: #fff;
+  }
+  to {
+  	font-family: Keep Calm;
+	font-size: 43.71px;
+	top: 180px;
+	left: 95px;
+	position: absolute;
+	color: #fff;
+  }
+}
+
+#titulo2 {
+	font-family: Keep Calm;
+	font-size: 25.19px;
+	top: 318px;
+	left: 95px;
+	position: absolute;
+	color: #fff;
+}
+
+#titulo2 {
+	animation-name: exxx;
+	animation-duration: 1.6s
+}
+
+@keyframes exxx {
+  from {
+  	font-family: Keep Calm;
+	font-size: 25.19px;
+	top: 318px;
+	left: 500px;
+	position: absolute;
+	color: #fff;
+  }
+  to {
+  	font-family: Keep Calm;
+	font-size: 25.19px;
+	top: 318px;
+	left: 95px;
+	position: absolute;
+	color: #fff;
+  }
+}
+
+#titulo3 {
+	font-family: Keep Calm;
+	font-size: 45.62px;
+	top: 823px;
+	left: 340px;
+	position: absolute;
+	color: #fff;
+}
+
+#titulo3 {
+	animation-duration: 1.6s;
+	animation-delay: 2.5s;
+	animation-name: regroll;
+}
+
+@keyframes regroll {
+	from {
+	font-family: Keep Calm;
+	font-size: 45.62px;
+	top: 823px;
+	left: -50px;
+	position: absolute;
+	color: #fff;
+	}
+	to {
+	font-family: Keep Calm;
+	font-size: 45.62px;
+	top: 823px;
+	left: 340px;
+	position: absolute;
+	color: #fff;	
+	}
+}
+
+#titulo4 {
+	font-family: Keep Calm;
+	font-size: 51.30px;
+	top: 1787px;
+	left: 867px;
+	position: absolute;
+	color: #fff;
+}
+
+#legendinha {
+	position: absolute;
+	top: 504px;
+	left: 96px;
+	color: #736492;
+	font-size: 13.09px;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+#vcntasozinho {
+	position: absolute;
+	top: 538px;
+	left: 96px;
+	color: #cac8ce;
+	font-size: 13.09px;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+#acessologin {
+	font-family: Roboto;
+	font-size: 14.39px;
+	top: 37px;
+	left: 1240px;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+#acessologin:hover {
+	font-size: 19px;
+	top: 34px;
+	left: 1230px;
+	text-decoration: none;
+	transition: 0.5s;
+	text-shadow: 0 0 3px #cb16b5, 0 0 8px #cb16b5, 0 0 10px #cb16b5, 0 0 30px #cb16b5;
+}
+
+#obj1 {
+	position: absolute;
+	top: 15px;
+	left: 684px;
+}
+
+#obj1 {
+	animation-name: objj;
+	animation-duration: 1.6s;
+}
+
+@keyframes objj {
+	from {
+	position: absolute;
+	top: -400px;
+	left: 684px;
+	}
+	to {
+	position: absolute;
+	top: 15px;
+	left: 684px;
+	}
+}
+
+.ex1 {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-color: #13015b;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: auto;
+}
+
+#btn-c {
+	position: absolute;
+	top: 400px;
+	left: 90px;
+	transition: 0.5s;
+}
+
+#btn-c {
+	animation-duration: 1.6s;
+	animation-name: btncomece;
+}
+
+@keyframes btncomece {
+	from {
+	position: absolute;
+	top: 400px;
+	left: 500px;
+	transition: 0.5s;
+	}
+	to {
+	position: absolute;
+	top: 400px;
+	left: 90px;
+	transition: 0.5s;
+	}
+}
+
+#btn-c:hover {
+	top: 400px;
+	left: 100px;
+	transition: 0.5s;
+	width: 167px;
+}
+
+
+
+
+}

@@ -1,0 +1,20 @@
+@media screen and (min-width: 1360px) {
+
+@font-face {
+     font-family: Keep Calm, GeosansLight, Roboto-Light;
+     src: url(fontes/KeepCalm-Medium.ttf);
+     src: url(fontes/GeosansLight.ttf);
+     src: url(fontes/Roboto-Light.ttf);
+}
+
+.ex1 {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: #13015b;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  overflow: auto;
+}
+
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  background-color: transparent;
+}
+
+p {
+  position: relative;
+  font-family: roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(30deg, #0d0073, #612cb4, #0d0073);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
