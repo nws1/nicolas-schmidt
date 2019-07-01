@@ -1,0 +1,236 @@
+@keyframes strip {
+  0% {
+    filter: brightness(100%);
+    transform: translateY(0px);
+  }
+  100% {
+    filter: brightness(85%);
+    transform: translateY(-5px);
+  }
+}
+@keyframes strip-natural {
+  0% {
+    filter: brightness(100%);
+    transform: translateY(0px);
+  }
+  30% {
+    filter: brightness(105%);
+    transform: translateY(3px);
+  }
+  50% {
+    filter: brightness(95%);
+    transform: translateY(-1px);
+  }
+  75% {
+    filter: brightness(102%);
+    transform: translateY(2px);
+  }
+  100% {
+    filter: brightness(85%);
+    transform: translateY(-5px);
+  }
+}
+@keyframes strip-vigor {
+  0% {
+    filter: brightness(100%);
+    transform: translateY(0px);
+  }
+  30% {
+    filter: brightness(105%);
+    transform: translateY(3px);
+  }
+  50% {
+    filter: brightness(95%);
+    transform: translateY(-3px);
+  }
+  75% {
+    filter: brightness(102%);
+    transform: translateY(4px);
+  }
+  100% {
+    filter: brightness(85%);
+    transform: translateY(-5px);
+  }
+}
+body {
+  display: flex;
+  background: #090909;
+  justify-content: center;
+  font-family: 'Cinzel', serif;
+}
+
+#flag-canvas {
+  visibility: hidden;
+}
+
+.demo-title {
+  color: black;
+  border-bottom: 2px solid gray;
+  font-size: 32px;
+  text-shadow: 0px 0px 1px white, 0px 0px 2px white, 0px 0px 4px white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.flag-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flag-wrapper .flag {
+  display: inline-flex;
+  position: relative;
+  width: 200px;
+  height: 112px;
+  margin: auto 20px;
+}
+.flag-wrapper .flag .strip {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  background: white;
+  height: inherit;
+  will-change: transform;
+  width: 10px;
+  overflow: hidden;
+}
+.flag-wrapper .flag-title {
+  color: lightgray;
+  font-size: 24px;
+  padding: 10px;
+}
+.flag-wrapper .flag-description {
+  color: gray;
+}
+
+.flag.shadow {
+  filter: drop-shadow(4px 4px 4px black);
+}
+
+.wave-regular .strip {
+  animation-name: strip;
+  animation-duration: 0.32s;
+  animation-timing-function: cubic-bezier(0.7, 0.33, 0.31, 0.73);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave-natural .strip {
+  animation-name: strip-natural;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.7, 0.33, 0.31, 0.73);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave-natural2 .strip {
+  animation-name: strip-natural;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.6, 0.33, 0.51, 0.63);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave-vigor .strip {
+  animation-name: strip-vigor;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.6, 0.33, 0.51, 0.63);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave-vigor2 .strip {
+  animation-name: strip-vigor;
+  animation-duration: 1.2s;
+  animation-timing-function: cubic-bezier(0.4, 0.33, 0.41, 0.63);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.paused .strip {
+  animation-play-state: paused !important;
+}
+
+.strip:nth-child(1) {
+  animation-delay: 0.02s;
+}
+
+.strip:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.strip:nth-child(3) {
+  animation-delay: 0.06s;
+}
+
+.strip:nth-child(4) {
+  animation-delay: 0.08s;
+}
+
+.strip:nth-child(5) {
+  animation-delay: 0.1s;
+}
+
+.strip:nth-child(6) {
+  animation-delay: 0.12s;
+}
+
+.strip:nth-child(7) {
+  animation-delay: 0.14s;
+}
+
+.strip:nth-child(8) {
+  animation-delay: 0.16s;
+}
+
+.strip:nth-child(9) {
+  animation-delay: 0.18s;
+}
+
+.strip:nth-child(10) {
+  animation-delay: 0.2s;
+}
+
+.strip:nth-child(11) {
+  animation-delay: 0.22s;
+}
+
+.strip:nth-child(12) {
+  animation-delay: 0.24s;
+}
+
+.strip:nth-child(13) {
+  animation-delay: 0.26s;
+}
+
+.strip:nth-child(14) {
+  animation-delay: 0.28s;
+}
+
+.strip:nth-child(15) {
+  animation-delay: 0.3s;
+}
+
+.strip:nth-child(16) {
+  animation-delay: 0.32s;
+}
+
+.strip:nth-child(17) {
+  animation-delay: 0.34s;
+}
+
+.strip:nth-child(18) {
+  animation-delay: 0.36s;
+}
+
+.strip:nth-child(19) {
+  animation-delay: 0.38s;
+}
+
+.strip:nth-child(20) {
+  animation-delay: 0.4s;
+}
+
+.strip:nth-child(21) {
+  animation-delay: 0.42s;
+}
