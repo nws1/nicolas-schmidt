@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body.slider__body {
+	margin: 0px;
+	overflow: hidden;
+}
+
+/* PAGINA 1 */
+#page1 {
+background: url(imagem/teste1.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+}
+
+/*  Direção */
+.texto1 {
+	position: relative; 
+	color: #828282;
+	font-size: 16px;
+	font-family: Roboto;
+	top: 560px;
+	left: 582px;
+}
+/*  Elenco */
+.texto2 {
+	position: relative;
+	color: #828282;
+	font-size: 16px;
+	font-family: Roboto;
+	top: 567px;
+	left: 582px;
+}
+/*  Descrição */
+.texto3 {
+	position: relative;
+	color: #999999;
+	font-family: Roboto;
+	font-size: 19px;
+	top: 395px;
+	left: 567px;
+}
+/*  2019 */
+.texto4 {
+	position: relative;
+	color: #999999;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	top: 262px;
+	left: 565px;
+}
+/*  caixa 14+ */
+.texto5 {
+	position: relative;
+	text-align: center;
+	height: 28px;
+	width: 45px;
+	color: #999999;
+	font-family: Roboto;
+	font-size: 22px;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	top: 233px;
+	left: 640px;
+}
+/*  3h 12m */
+.texto6 {
+	position: relative;
+	color: #999999;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	top: 205px;
+	left: 706px;
+}
+
+/*  99% relevante */
+.texto7 {
+	position: relative;
+	color: #74ff74;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	top: 178px;
+	left: 824px;
+}
+/*  Logo endgame */
+.logo-endgame {
+	position: absolute;
+	top: 297px;
+	left: 550px;
+	max-width: 100%;
+	max-height: 100%;
+}
+/*  Banner endgame */
+.banner-endgame {
+	position: absolute;
+	top: 316px;
+	left: 173px;
+	max-width: 100%;
+	max-height: 100%;
+}
+/*  Logo empresa */
+.logo-ng {
+	position: absolute;
+	top: -16px;
+	left: 53px;
+	max-width: 100%;
+	max-height: 100%;
+}
+/*  Botão do like */
+.botao-curtir {
+	position: absolute;
+	top: 760px;
+ 	left: 755px;
+}
+/*  Botão share */
+.botao-share {
+	position: absolute;
+	top: 760px;
+ 	left: 913px;
+}
+/* css pagina 2 */
+#page2 {
+	background: url(imagem/teste2.png);
+}
+.spiderman {
+	position: relative;
+	left: 253px;
+	top: 58px;
+}
+.infinitywar {
+	position: relative;
+	left: 809px;
+	top: -280px;
+}
+.captain {
+	position: relative;
+	left: 251px;
+	top: -190px;
+}
+.pantera {
+	position: relative;
+	left: 809px;
+	top: -529px;
+}
+.thor {
+	position: relative;
+	left: 1356px;
+	top: -1303px;
+}
+.ofgalaxy {
+	position: relative;
+	left: 1358px;
+	top: -1208px;
+}
+.filmestitle {
+	position: absolute;
+	left: 0px;
+	top: 335px;
+}
+
+/* css pagina 3*/
+#page3 {
+	background: url(imagem/teste3.png);
+}
+
+.form1 {
+	position: absolute;
+	left: 350px;
+	top: 250px;
+}
+
+#animt1 {
+	position: absolute;
+	top: 130px;
+	left: 140px;
+}
+
+.contatinho {
+	position: relative;
+	background-color: transparent;
+	height: 240px;
+	width: 300px;
+	margin: 0px;
+	left: -13px;
+	top: 323px;
+}
+
+.local {
+	position: relative;
+	margin: 0px;
+	left: 1157px;
+	top: 12px;
+}
+
+
+
+
+
+.slider__container {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: -webkit-transform 500ms ease-in-out;
+	transition: -webkit-transform 500ms ease-in-out;
+	-o-transition: transform 500ms ease-in-out;
+	transition: transform 500ms ease-in-out;
+	transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.slider__page {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.slider__indicators {
+	position: absolute;
+	right: 1.55%; 
+	top: 50%;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.slider__indicator {
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding: 1.1px;
+	margin: 40px 0 ;
+	border-radius: 100px;
+	background-color: #fff;
+	cursor: default;
+}
+.slider__indicator--active {
+	opacity: 1;
+	background-color: #ff0155;
+}
+

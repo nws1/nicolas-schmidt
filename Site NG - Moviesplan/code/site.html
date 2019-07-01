@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- HTMl responsivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NG Moviesplan</title>
+    <script src="slider.js"></script> <!-- Slider página site-->
+    <link rel="stylesheet" href="estilos.css"> <!-- estilos do site-->
+    <link rel="stylesheet" href="botao/style.css"> <!-- botoes do site-->
+    <link rel="stylesheet" href="menu/style.css"> <!-- estilos do menu-->
+    <link rel="stylesheet" href="form/style.css"> <!-- estilos do contato -->
+    <link rel="stylesheet" href="frufru/style.css"> <!-- estilo de animação title -->
+  </head>
+
+  <body>
+
+    <!-- DIVISÃO DE CLASSES -->
+    <div class="slides">
+        <div id="page1">
+                <div class="btncampo" data-slider-index="1">
+                <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" class="btn btn-4"><span>Adicionar+</span></a> 
+                </div>
+
+                <div class="texto1">
+                <b>Dirigido por Anthony Russo e Joe Russo.</b>
+                </div>
+
+                <div class="texto2">
+                <b>Elenco: Robert Downey Jr., Chris Evans, Scarlett Johansson, Chris Hemsworth,<br>
+                Brie Larson, & others.</b>
+                </div>
+
+                <div class="texto3">
+                Após Thanos eliminar 50% das criaturas vivas, o Universo encontra-se em ruínas.<br>
+                Com Tony Stark perdido no espaço e quase morrendo, Steve Rogers e Natasha Romanov<br>
+                lideram na Terra a resistência conta o Titã louco.
+                </div>
+
+                <div class="texto4">
+                2019
+                </div>
+
+                <div class="texto5">
+                14+
+                </div>
+
+                <div class="texto6">
+                3h 10min
+                </div>
+
+                <div class="texto7">
+                99% relevante
+                </div>
+                
+                <div class="logo-endgame">
+                <img src="imagem/logo-endgame.png">
+                </div>
+
+                <div class="banner-endgame">
+                <img src="imagem/banner-endgame.png">
+                </div>
+                                                                         
+                <div class="logo-ng">
+                <img src="imagem/logo-ng.png">
+                </div>
+                                                                                    
+                <div class="botao-curtir">
+                <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c"><img src="imagem/botao-curtir.png"></a>
+                </div>
+
+                <div class="botao-share">
+                <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c"><img src="imagem/botao-share.png"></a>
+                </div>
+
+                <div class="container topBotomBordersOut">
+                <a>HOME</a>
+                <a>SOBRE</a>
+                <a href="#page2">FILMES</a>
+                <a>PLANOS</a>
+                <a href="#cont">CONTATO</a>
+                </div>                                  
+        </div>
+
+        <!-- DIVISÃO PAGE2-->
+        <div id="page2" data-slider-index="2">
+          <div class="spiderman">
+            <img src="imagem/spiderman.png">
+          </div>
+          <div class="infinitywar">
+            <img src="imagem/avg4.png">
+          </div>
+          <div class="captain">
+            <img src="imagem/captain.png">
+          </div>
+          <div class="pantera">
+            <img src="imagem/pantera.png">
+          </div>
+          <div class="thor">
+            <img src="imagem/thor.png">
+          </div>
+          <div class="ofgalaxy">
+            <img src="imagem/ofgalaxy.png">
+          </div>
+          <div class="filmestitle">
+            <img src="imagem/filmes.png">
+          </div>
+        </div>
+        <!-- DIVISÃO PAGE3 -->
+        <div id="page3" class="slider__page" data-slider-index="3">
+          <div class="form1">
+          <form>      
+          <input name="name" type="text" class="feedback-input" placeholder="Nome" />   
+          <input name="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" class="feedback-input" placeholder="Mensagem"></textarea>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar"> 
+          </form>
+          </div>
+          <div id="animt1">
+          <p>ENTRE EM CONTATO CONOSCO</p>
+          </div>
+          <div class="contatinho">
+          <img src="imagem/titlecontato.png">
+          </div>
+          <div id="cont" class="local">
+          <img src="imagem/located.png">
+          </div>
+        </div>
+    </div>
+
+    <!-- ÁREA DO SCRIPT DE SLIDER-->
+    <script>
+      slider('.slides');
+    </script>
+   </body>
+</html>
+
